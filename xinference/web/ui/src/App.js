@@ -15,7 +15,6 @@ function App() {
   const [theme] = useMode()
   const [cookie, setCookie, removeCookie] = useCookies(['token'])
   const [msg, setMsg] = useState('')
-
   const endPoint = getEndpoint()
 
   useEffect(() => {
